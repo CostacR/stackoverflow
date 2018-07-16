@@ -14,7 +14,7 @@ public class StackOverFlowMainPage {
 
 
     public void cycleMenu () throws InterruptedException {
-        int i = 3;
+        int i = 2;
         for (int j = 1; j <i; j++){
             cycleDropMenuClick(j);
             System.out.println(j);
