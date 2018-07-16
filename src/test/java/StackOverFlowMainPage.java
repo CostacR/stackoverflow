@@ -14,9 +14,9 @@ public class StackOverFlowMainPage {
 
 
     public void cycleMenu () throws InterruptedException {
-        int i = 3;
+        int i = 5;
         for (int j = 1; j <i; j++){
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             clickAllSitesDropMenuLocator();
             cycleDropMenuClick(j);
             System.out.println(j);
@@ -33,12 +33,12 @@ public class StackOverFlowMainPage {
         //ul[@class='other-sites js-other-sites']//li[2]//a[1]
         WebElement clickPointMenu = driver.findElement(dropMenuPoint3DPrintLocator);
         clickPointMenu.click();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         driver.navigate().back();
         }
 
     public void clickAllSitesDropMenuLocator() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         WebElement dropMenu = driver.findElement(allSitesDropMenuLocator);
         dropMenu.click();
         System.out.println("drop menu OK");

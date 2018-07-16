@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -12,6 +13,15 @@ public class MainPage {
     By loginEnterButtonLocator = By.xpath("//a[@class='login-link s-btn py8']");
     By searchTextFieldLocator = By.xpath("//div[@class='ps-relative']//input[@name='q']");
     By dropMenuLocator = By.xpath("//li//a[@class='-link js-site-switcher-button js-gps-track topbar-icon-on icon-site-switcher-on']");
+
+    public boolean  existElementLoginEnterButtonLocator (String loginEnterButtonLocator){
+        try {
+            driver.findElement(By.xpath(loginEnterButtonLocator));
+        }catch (NoSuchElementException e){
+            return false;
+        }
+        return true;
+    }
 
 
     public LoginPage clickLoginEnterButtonLocator (){
