@@ -11,7 +11,7 @@ public class StackOverFlowTest extends StackoverflowTestSettings{
         LoginPage loginPage = mainPage.clickLoginEnterButtonLocator();
         loginPage.login(this.userEmail, this.userPassword);
         StackOverFlowMainPage stackOverFlowMainPage = loginPage.clickButtonLoginLocator();
-        stackOverFlowMainPage.clickAllSitesDropMenuLocator();
+        //stackOverFlowMainPage.clickAllSitesDropMenuLocator();
         //stackOverFlowMainPage.clickDropMenuPoint3DPrintLocator();
         stackOverFlowMainPage.cycleMenu();
 
