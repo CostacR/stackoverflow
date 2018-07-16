@@ -14,11 +14,12 @@ public class StackOverFlowMainPage {
 
 
     public void cycleMenu () throws InterruptedException {
-        Thread.sleep(3000);
         int i = 3;
         for (int j = 1; j <i; j++){
             cycleDropMenuClick(j);
             System.out.println(j);
+            Thread.sleep(3000);
+            driver.navigate().back();
         }
 
 
@@ -34,7 +35,6 @@ public class StackOverFlowMainPage {
         By dropMenuPoint3DPrintLocator = By.xpath("//ul[@class='other-sites js-other-sites']//li["+i+"]//a[1]");
         WebElement clickPointMenu = driver.findElement(dropMenuPoint3DPrintLocator);
         clickPointMenu.click();
-        driver.navigate().back();
         //    System.out.println("Munu #"+i+" is open");
     }
 
