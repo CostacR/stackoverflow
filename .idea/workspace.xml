@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc7d46dc-702a-4be3-b452-883ff002c74c" name="Default" comment="" />
+    <list default="true" id="dc7d46dc-702a-4be3-b452-883ff002c74c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StackOverFlowMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StackOverFlowMainPage.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +41,8 @@
       <file leaf-file-name="StackOverFlowMainPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="552">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#clickAllSitesDropMenuLocator#0;class#StackOverFlowMainPage#0" />
@@ -123,6 +127,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -144,17 +154,18 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="562" />
-    <option name="width" value="1174" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="295" />
+    <option name="y" value="1093" />
+    <option name="width" value="1496" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,13 +195,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testproject" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -324,39 +337,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackOverFlowTest - 2018.07.09 at 15h 08m 44s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.09 at 15h 10m 40s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.09 at 15h 11m 25s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.09 at 15h 13m 08s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.09 at 15h 13m 55s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.09 at 16h 07m 00s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.09 at 16h 20m 30s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.09 at 16h 31m 16s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StackOverFlowTest - 2018.07.09 at 16h 54m 39s.xml">
       <configuration name="StackOverFlowTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StackOverFlowTest - 2018.07.12 at 11h 53m 11s.xml">
       <configuration name="StackOverFlowTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.16 at 10h 52m 55s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.16 at 10h 57m 53s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.16 at 11h 20m 19s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.16 at 11h 21m 10s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.16 at 11h 21m 34s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.16 at 11h 22m 07s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.16 at 11h 25m 42s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.16 at 11h 49m 52s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="562" y="0" width="1174" height="1047" extended-state="0" />
+    <frame x="-4" y="1076" width="1928" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -364,14 +377,14 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50085765" side_tool="true" weight="0.32899022" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49914238" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24957119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1515625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -925,8 +938,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="552">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#clickAllSitesDropMenuLocator#0;class#StackOverFlowMainPage#0" />

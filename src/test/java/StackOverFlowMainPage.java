@@ -15,17 +15,27 @@ public class StackOverFlowMainPage {
 
     public void cycleMenu () throws InterruptedException {
         Thread.sleep(3000);
-        for (int i=1; i>=3; i++){
-            By dropMenuPoint3DPrintLocator = By.xpath("//ul[@class='other-sites js-other-sites']//li["+i+"]//a[1]");
-            WebElement clickPointMenu = driver.findElement(dropMenuPoint3DPrintLocator);
-            clickPointMenu.click();
-            System.out.println("Munu #"+i+" is open");
+        int i = 3;
+        for (int j = 1; j <i; j++){
+            cycleDropMenuClick(j);
+            System.out.println(j);
+        }
+
+
 
             By mainMenuReturnLocator = By.xpath("//ul[@class='my-sites']//span[@class='grid--cell fl1'][contains(text(),'Stack Overflow на русском')]");
             WebElement mainMenu = driver.findElement(mainMenuReturnLocator);
             mainMenu.click();
             System.out.println("Main menu return OK");
-        }
+
+    }
+
+    private void cycleDropMenuClick(int i) {
+        By dropMenuPoint3DPrintLocator = By.xpath("//ul[@class='other-sites js-other-sites']//li["+i+"]//a[1]");
+        WebElement clickPointMenu = driver.findElement(dropMenuPoint3DPrintLocator);
+        clickPointMenu.click();
+        driver.navigate().back();
+        //    System.out.println("Munu #"+i+" is open");
     }
 
     public void clickAllSitesDropMenuLocator() throws InterruptedException {
