@@ -14,12 +14,16 @@ public class MainPage {
     By searchTextFieldLocator = By.xpath("//div[@class='ps-relative']//input[@name='q']");
     By dropMenuLocator = By.xpath("//li//a[@class='-link js-site-switcher-button js-gps-track topbar-icon-on icon-site-switcher-on']");
 
-    public boolean  existElementLoginEnterButtonLocator (String loginEnterButtonLocator){
+    public boolean  existElementLoginEnterButtonLocator (){
         try {
-            driver.findElement(By.xpath(loginEnterButtonLocator));
+            driver.findElement(loginEnterButtonLocator);
         }catch (NoSuchElementException e){
+            System.out.println("Element is not found");
+            e.printStackTrace();
             return false;
         }
+        System.out.println("Element is found");
+        clickLoginEnterButtonLocator();
         return true;
     }
 

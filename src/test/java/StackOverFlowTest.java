@@ -7,9 +7,10 @@ public class StackOverFlowTest extends StackoverflowTestSettings{
     @Test //login in account
     public void loginInAccountTest() throws InterruptedException {
         MainPage mainPage = new MainPage(this.driver);
-        mainPage.existElementLoginEnterButtonLocator(String loginEnterButtonLocator);
-        mainPage.clickLoginEnterButtonLocator();
-        LoginPage loginPage = mainPage.clickLoginEnterButtonLocator();
+        mainPage.existElementLoginEnterButtonLocator();
+       // mainPage.clickLoginEnterButtonLocator();
+       LoginPage loginPage = mainPage.clickLoginEnterButtonLocator();
+
         loginPage.login(this.userEmail, this.userPassword);
         StackOverFlowMainPage stackOverFlowMainPage = loginPage.clickButtonLoginLocator();
         //stackOverFlowMainPage.clickAllSitesDropMenuLocator();
