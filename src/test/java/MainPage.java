@@ -18,11 +18,11 @@ public class MainPage {
         try {
             driver.findElement(loginEnterButtonLocator);
         }catch (NoSuchElementException e){
-            System.out.println("Element is not found");
+            System.out.print("Element is not found. ");
             e.printStackTrace();
             return false;
         }
-        System.out.println("Element is found");
+        System.out.print("Element is found. ");
         clickLoginEnterButtonLocator();
         return true;
     }
@@ -53,6 +53,6 @@ public class MainPage {
         Thread.sleep(5000);
         WebElement dropMenu = driver.findElement(dropMenuLocator);
         dropMenu.click();
-        System.out.println("Drop menu OK");
+        System.out.println("Drop menu OK. ");
     }
 }

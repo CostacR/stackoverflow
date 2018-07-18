@@ -15,7 +15,9 @@ public class StackOverFlowTest extends StackoverflowTestSettings{
         StackOverFlowMainPage stackOverFlowMainPage = loginPage.clickButtonLoginLocator();
         //stackOverFlowMainPage.clickAllSitesDropMenuLocator();
         //stackOverFlowMainPage.clickDropMenuPoint3DPrintLocator();
-        stackOverFlowMainPage.cycleMenu();
+        //stackOverFlowMainPage.cycleMenu();
+        TagsSearchTestsPage tagsSearchTestsPage = stackOverFlowMainPage.cycleMenu();
+        tagsSearchTestsPage.clickTagsLocator();
 
     }
 
