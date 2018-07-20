@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+
 public class StackOverFlowTest extends StackoverflowTestSettings{
     public StackOverFlowTest(){
     }
@@ -10,16 +11,19 @@ public class StackOverFlowTest extends StackoverflowTestSettings{
         mainPage.existElementLoginEnterButtonLocator();
        // mainPage.clickLoginEnterButtonLocator();
        LoginPage loginPage = mainPage.clickLoginEnterButtonLocator();
-
         loginPage.login(this.userEmail, this.userPassword);
         StackOverFlowMainPage stackOverFlowMainPage = loginPage.clickButtonLoginLocator();
-        //stackOverFlowMainPage.clickAllSitesDropMenuLocator();
-        //stackOverFlowMainPage.clickDropMenuPoint3DPrintLocator();
-        //stackOverFlowMainPage.cycleMenu();
-        TagsSearchTestsPage tagsSearchTestsPage = stackOverFlowMainPage.cycleMenu();
-        tagsSearchTestsPage.clickTagsLocator();
+//        TagsSearchTestsPage tagsSearchTestsPage = stackOverFlowMainPage.cycleMenu();
+//        tagsSearchTestsPage.clickTagsLocator();
+    }
+
+    @Test
+    public void dropMenuTest()  {
+        SelectTest selectTest = new SelectTest(this.driver);
+        selectTest.selectText();
 
     }
+
 
 //    @Test // create new account test
 //    public void createAccountStackOF() throws InterruptedException {

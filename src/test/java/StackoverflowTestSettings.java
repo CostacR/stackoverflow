@@ -16,11 +16,12 @@ public class StackoverflowTestSettings {
         driver.get("https://ru.stackoverflow.com/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
     }
 
     @After
     public void browserDown(){
         System.out.println("Testing end");
-        //driver.close();
+//        driver.close();
     }
 }

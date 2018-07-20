@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc7d46dc-702a-4be3-b452-883ff002c74c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TagsSearchTestsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StackOverFlowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackOverFlowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StackOverFlowMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StackOverFlowMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StackoverflowTestSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackoverflowTestSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/StackOverFlowTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StackOverFlowTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StackoverflowTestSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StackoverflowTestSettings.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="StackoverflowTestSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StackoverflowTestSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="284">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,20 +35,19 @@
       <file leaf-file-name="StackOverFlowTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="264">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackOverFlowMainPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java">
+      <file leaf-file-name="SelectTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SelectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="440">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1348#1402#0" />
               </folding>
             </state>
           </provider>
@@ -59,7 +56,7 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="352">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,11 +70,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="StackOverFlowMainPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RegistryPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RegistryPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="22" column="76" lean-forward="true" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+            <state relative-caret-position="360">
+              <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#fillUserEmailField#0;class#RegistryPage#0" />
@@ -89,15 +98,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TagsSearchTestsPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TagsSearchTestsPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TagsSearchTestsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+            <state relative-caret-position="280">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,7 +138,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
@@ -140,15 +147,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/stackoverflowTestSettings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StackoverflowTestSettings.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/RegistryPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tagsSearchTestsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StackOverFlowTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TagsSearchTestsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StackoverflowTestSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StackOverFlowTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SelectTest.java" />
       </list>
     </option>
   </component>
@@ -171,6 +179,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,9 +211,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,31 +417,17 @@
       <option name="project" value="LOCAL" />
       <updated>1531829886701</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit /added exception (true/false) to find elements is work!">
+      <created>1531923021976</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1531923021976</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackOverFlowTest - 2018.07.18 at 16h 26m 55s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.18 at 16h 29m 16s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.18 at 16h 29m 51s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.18 at 16h 31m 38s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.18 at 16h 32m 28s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.18 at 16h 34m 28s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackOverFlowTest - 2018.07.18 at 16h 37m 20s.xml">
-      <configuration name="StackOverFlowTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StackOverFlowTest - 2018.07.18 at 16h 39m 50s.xml">
       <configuration name="StackOverFlowTest" configurationId="JUnit" />
     </history-entry>
@@ -441,6 +435,27 @@
       <configuration name="StackOverFlowTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StackOverFlowTest - 2018.07.18 at 16h 43m 50s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.19 at 12h 08m 28s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.19 at 12h 29m 53s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.19 at 12h 32m 27s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.20 at 13h 56m 50s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.20 at 13h 58m 05s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.20 at 14h 00m 12s.xml">
+      <configuration name="StackOverFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackOverFlowTest - 2018.07.20 at 15h 29m 56s.xml">
       <configuration name="StackOverFlowTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -455,6 +470,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="1076" width="1928" height="1088" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32976446" />
@@ -465,17 +481,17 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50085765" side_tool="true" weight="0.32848233" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32976446" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49914238" visible="true" weight="0.47109208" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49914238" weight="0.47109208" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32976446" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16434689" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16862956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39828694" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -503,20 +519,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1348#1402#0" />
           </folding>
         </state>
       </provider>
@@ -544,7 +552,6 @@
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1348#1402#0" />
           </folding>
         </state>
       </provider>
@@ -666,7 +673,6 @@
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1348#1402#0" />
           </folding>
         </state>
       </provider>
@@ -687,7 +693,6 @@
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1348#1402#0" />
           </folding>
         </state>
       </provider>
@@ -941,16 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StackoverflowTestSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -964,8 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RegistryPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="22" column="76" lean-forward="true" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+        <state relative-caret-position="360">
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#fillUserEmailField#0;class#RegistryPage#0" />
@@ -976,9 +971,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TagsSearchTestsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StackoverflowTestSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="352">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -991,32 +1023,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowMainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SelectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="440">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1348#1402#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StackOverFlowTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TagsSearchTestsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
