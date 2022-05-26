@@ -8,7 +8,7 @@ public class StackoverflowTestSettings {
     protected WebDriver driver;
     protected String userName = "CostaCore";
     protected String userPassword = "4838960Q";
-    protected String userEmail = "konstantin.koresh@gmail.com";
+    protected String userEmail = "kin.kor@gmail.com";
 
     @Before
     public void setUp(){
